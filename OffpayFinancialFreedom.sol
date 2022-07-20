@@ -286,7 +286,7 @@ contract OffpayFinancialFreedom is ERC20Detailed, Ownable {
     uint256 public rewardYieldDenominator = 10000000000;
     uint256 public maxSellTransactionAmount = 2500000 * 10 ** 18;
 
-    uint256 public rebaseFrequency = 1800;
+    uint256 public rebaseFrequency = 1980;
     uint256 public nextRebase = block.timestamp + 31536000;
 
     mapping(address => bool) _isFeeExempt;
